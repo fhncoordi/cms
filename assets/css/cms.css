@@ -1,0 +1,69 @@
+/* Estilos generales para el CMS */
+.cms-header {
+    background-color: #4A6D8C;
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.cms-footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Centrado vertical de imágenes en las tarjetas de artículos */
+.card .row {
+    align-items: center;
+}
+
+.card .img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Estilos para los botones de eliminar */
+.btn-delete-card, .btn-delete-featured {
+    transition: all 0.2s ease;
+}
+
+.btn-delete-card:hover, .btn-delete-featured:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el botón de agregar proyecto */
+.btn-add-project {
+    display: flex;
+    align-items: center;
+}
+
+.btn-add-project i {
+    margin-right: 0.5rem;
+}
+
+/* Estilos para el contenedor de proyectos */
+#dynamic-cards-container {
+    min-height: 200px;
+}
+
+/* Estilos para las notificaciones toast */
+.toast-header {
+    font-weight: 500;
+}
+
+.toast {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
